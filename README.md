@@ -1,10 +1,10 @@
-# 🌱 AI-Based Smart Plant Disease Monitoring System
+# AI-Based Smart Plant Disease Monitoring System
 
 **An AI-powered plant health monitoring system integrating Deep Learning, Computer Vision, Explainable AI (XAI), and Internet of Things (IoT).**
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Plant diseases are one of the major factors affecting crop health and agricultural productivity. Traditional disease identification methods primarily depend on manual inspection, which can be time-consuming and may require expert knowledge.
 
@@ -20,7 +20,7 @@ The overall objective is to develop a low-cost and practical prototype for intel
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Develop an AI-based system for identifying plant diseases from leaf images.
 - Implement MobileNetV2 for plant disease classification.
@@ -34,7 +34,7 @@ The overall objective is to develop a low-cost and practical prototype for intel
 
 ---
 
-## 💡 Key Features
+## Key Features
 
 | Feature | Description |
 |---|---|
@@ -49,7 +49,7 @@ The overall objective is to develop a low-cost and practical prototype for intel
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The proposed system consists of the following major stages:
 
@@ -104,7 +104,7 @@ Environmental sensors continuously provide additional information about the plan
 
 ---
 
-## 🧠 Deep Learning Models
+## Deep Learning Models
 
 MobileNetV2 is selected as the baseline architecture for plant disease classification because of its lightweight design and suitability for image classification tasks.
 
@@ -127,7 +127,7 @@ The final model selection will be based on experimental results and suitability 
 
 ---
 
-## 🔍 Explainable AI – Grad-CAM
+## Explainable AI – Grad-CAM
 
 Grad-CAM is used to improve the interpretability of the disease classification model.
 
@@ -139,7 +139,7 @@ The generated heatmap is overlaid on the original leaf image to produce an inter
 
 ---
 
-## 🔌 Hardware Components
+## Hardware Components
 
 The proposed hardware prototype consists of the following components:
 
@@ -156,7 +156,7 @@ The proposed hardware prototype consists of the following components:
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 
 ### Software and Programming
 
@@ -188,7 +188,7 @@ The proposed hardware prototype consists of the following components:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 AI-Based-Smart-Plant-Disease-Monitoring-System/
@@ -284,7 +284,7 @@ AI-Based-Smart-Plant-Disease-Monitoring-System/
 
 ---
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
 ### 1. Clone the Repository
 
@@ -326,27 +326,8 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Project Implementation Workflow
 
-The project is organized into the following development stages:
-
-| Stage | Implementation |
-|---|---|
-| Stage 1 | Dataset collection and exploration |
-| Stage 2 | Image preprocessing and augmentation |
-| Stage 3 | MobileNetV2 baseline model training |
-| Stage 4 | Training and comparison of additional models |
-| Stage 5 | Model evaluation and performance analysis |
-| Stage 6 | Grad-CAM implementation |
-| Stage 7 | ESP32-CAM and sensor integration |
-| Stage 8 | Plant recovery monitoring |
-| Stage 9 | Complete prototype testing |
-
-Detailed implementation instructions will be maintained in the respective repository folders.
-
----
-
-## 📊 Results and Performance Analysis
+## Results and Performance Analysis
 
 Experimental results will be added after model training and prototype testing.
 
@@ -376,7 +357,7 @@ The following results will be documented:
 
 ---
 
-## 🌿 Applications
+## Applications
 
 - Smart agriculture.
 - Greenhouse monitoring.
@@ -388,7 +369,7 @@ The following results will be documented:
 
 ---
 
-## ⭐ What Makes This Project Different?
+## What Makes This Project Different?
 
 Many plant disease detection systems focus primarily on classifying a leaf image and providing a disease prediction.
 
@@ -404,7 +385,7 @@ By combining these features, the project aims to provide a more comprehensive pl
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Disease classification performance depends on the quality and diversity of the training dataset.
 - Predictions may be affected by lighting, background, image quality, and real-world environmental conditions.
@@ -416,7 +397,7 @@ The system is intended as a decision-support tool and should not replace expert 
 
 ---
 
-## 👩‍💻 Project Contributors
+## Project Contributors
 
 **Department of Electronics and Communication Engineering**
 
@@ -437,7 +418,7 @@ The system is intended as a decision-support tool and should not replace expert 
 
 ---
 
-## 📚 References
+## References
 
 1. S. Janarthan, S. Thuseethan, S. Rajasegarar and J. Yearwood, "P2OP—Plant Pathology on Palms: A Deep Learning-Based Mobile Solution for In-Field Plant Disease Detection," *Computers and Electronics in Agriculture*, Vol. 202, 2022. DOI: [10.1016/j.compag.2022.107371](https://doi.org/10.1016/j.compag.2022.107371).
 
@@ -451,7 +432,7 @@ The system is intended as a decision-support tool and should not replace expert 
 
 ---
 
-## 📄 License
+## License
 
 This project is developed as an academic mini-project at BMS College of Engineering.
 
